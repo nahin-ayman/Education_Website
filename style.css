@@ -49,7 +49,8 @@ body {
       height: 60%;
       width: 33%;
       border: 1px solid rgb(201, 201, 43);
-      background: linear-gradient(17deg, rgba(196,116,17,1) 37%, rgba(239,244,21,1) 83%);  
+      /* background: linear-gradient(17deg, rgba(196,116,17,1) 37%, rgba(239,244,21,1) 83%);   */
+      background-color: rgb(253, 199, 21);
       margin-left: 120px;
       margin-top: 110px;
 
@@ -347,6 +348,98 @@ body {
     text-decoration: none;
     color: palevioletred;
     font-weight: ;
+}
+
+
+
+.section_5{
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+    background-color: rgb(59, 128, 255);
+}
+.sec_5_text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec_5_text h1{
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+}
+.sec_5_text p{
+    color: rgb(192, 188, 188);
+    font-size: 30px;
+    line-height: 28px;
+    margin-top: -0px;
+    margin-top: 10px;
+    /* padding: 15px; */
+}
+.text_1{
+    width: 35%;
+    /* border:  1px solid black; */
+}
+.text_2{
+    width: 34%;
+    /* border:1px solid black; */
+    margin-left: -60px;
+   
+}
+
+
+
+.section_6 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.section_6 img{
+    width: 50px;
+    /* border: 1px solid blue; */
+    margin-top: 90px;  
+}
+.section_6 p{
+    font-size: 30px;
+    color: rgb(80, 79, 79);
+    margin: 0;
+}
+
+
+
+
+.section_7{
+    width: 100%;
+    height: 300px;
+    background-color: hotpink;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.sec_7_text{
+    /* border: 1px solid black; */
+    height: 30%;
+    margin-top: 110px;
+
+}
+
+
+
+.section_8 footer{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+.section_8 footer a{
+    font-size: 29px;
+    color: rgb(202, 118, 160);
+    position: relative;
+    top: 25%;
 }
 
 
