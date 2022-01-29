@@ -42,7 +42,7 @@ body {
   .banner{
       width: 100%;
       height: 500px;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       display: flex;
   }
   .background_box{
@@ -85,7 +85,7 @@ body {
   .section_1{
       width: 100%;
       height: 350px;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       background-color: rgb(8, 189, 189);
   }
   .sec_1_text{
@@ -128,7 +128,106 @@ body {
 
 
 
-  .box_container{
-      display: flex;
-      justify-content: space-around;
+ 
+  .section_2{
+      border-image-width: 100%;
+      height: 650px;
+      /* border: 1px solid black; */
+
   }
+  .sec_2_heading{
+      /* border: 1px solid black; */
+      /* display: inline-block; */
+      width: 580px;
+      height: 150px;
+      margin: auto;
+      text-align: center;
+
+  }
+  .sec_2_heading h2{
+     font-size: 35px;
+     text-transform: uppercase;
+     margin: 0;
+     color: grey;
+     margin-top: 20px;
+
+  }
+  .sec_2_heading h1{
+      font-size: 70px;
+      margin: 0;
+      margin-top: -10px;
+      color: rgb(66, 66, 66);
+
+  }
+  .box_container{
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: 1px solid red; */
+    width: 92%;
+    height: 490px;
+    margin-left: 100px;
+
+}
+.sec_2_box{
+    width: 20%;
+    height: 99%;
+    /* border: 1px solid blue; */
+    margin-left: 20px;
+    
+
+}
+.sec_2_box h1{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 10px;
+    color: rgb(71, 71, 71);
+}
+.sec_2_box p{
+    font-family: sans-serif;
+    line-height: 24px;
+    letter-spacing: .8px;
+    padding: 10px;
+    margin: 0;
+    color: rgb(104, 103, 103);
+}
+.sec_2_box a{
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    text-transform: uppercase;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sec_2_box img{
+    margin-bottom: 0;
+}
+.sec_2_img_box{
+    height: 45%;
+    width: 100%;
+    border: 1px solid yellowgreen;
+    margin-top: 20px;
+}
+.sec_2_img_box img{
+    width: 100%;
+    height: 100%;
+}
+.big_box{
+    /* border: 1px solid crimson; */
+    width: 27%;
+    height: 570px;
+}
+.big_box img{
+    width: 400px;
+    height: 570px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+  
